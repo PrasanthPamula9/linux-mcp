@@ -1,0 +1,24 @@
+[project]
+name = "linux-mcp"
+version = "0.1.0"
+description = "Linux system inspection and package-manager capability layer for MCP clients"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+linux-mcp = "linux_mcp:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
