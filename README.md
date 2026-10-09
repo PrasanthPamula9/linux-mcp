@@ -157,10 +157,3 @@ This project is a tool layer intended for demonstration, engineering review, and
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-
-
-```bash
-git remote set-url origin <your-github-repo-url>
-git push -u origin main
-```
