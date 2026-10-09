@@ -158,20 +158,7 @@ This project is a tool layer intended for demonstration, engineering review, and
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## GitHub publishing
 
-To publish this repository on GitHub:
-
-```bash
-git init
-git add .
-git commit -m "Initial Linux MCP server implementation"
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
-
-If you want, you can also add a remote repository from GitHub later with:
 
 ```bash
 git remote set-url origin <your-github-repo-url>
